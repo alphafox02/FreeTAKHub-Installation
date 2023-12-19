@@ -1,5 +1,5 @@
 #!/bin/bash
-
+PYTHON_USER_SITE=$(python -m site --user-site)
 # Sharing for MainConfig.py
 if [[ ! -f "/opt/fts/MainConfig.py" ]]
   then
